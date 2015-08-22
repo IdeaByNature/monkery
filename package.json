@@ -1,0 +1,22 @@
+{
+  "name": "monkery",
+  "version": "1.0.0",
+  "description": "Modifies a Monk connection to save to multiple MongoDB instances.",
+  "main": "monkery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IdeaByNature/monkery.git"
+  },
+  "author": "Christopher W. Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IdeaByNature/monkery/issues"
+  },
+  "homepage": "https://github.com/IdeaByNature/monkery",
+  "devDependencies": {
+    "monk": "0.9.1 "
+  }
+}
