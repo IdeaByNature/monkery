@@ -15,8 +15,8 @@ Modifies a Monk connection to save to multiple MongoDB instances.
     var backup = monk('192.168.1.123:27017/more-monkery-business')
     monkery.add_destination(db, backup)
     
-You can also optionally customize which monk methods are mirrored.
+You can also optionally customize which monk methods are mirrored:
 
-    monkery.add_destination(db, backup, ['update', 'insert', 'make_monastery'])
+    monkery.add_destination(db, backup, ['update', 'insert', 'summon_monastery'])
     
 The default methods are 'update' and 'insert'.
